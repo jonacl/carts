@@ -39,6 +39,7 @@ public class HealthCheckController {
           database.setStatus("err");
        }
        
+       
 
        healthChecks.add(app);
        healthChecks.add(database);
